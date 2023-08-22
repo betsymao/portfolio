@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (max-width: 320px) {
+  .header-nav {
+    ul {
+      flex-wrap: wrap;
+    }
+  }
+}

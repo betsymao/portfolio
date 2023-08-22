@@ -1,0 +1,56 @@
+@use '../abstracts/' as *;
+
+header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-auto-flow: dense;
+  padding: 2rem;
+  background-color: $primary-light;
+}
+
+.navbar {
+  .logo {
+    font-size: $fs-md;
+    font-weight: $fw-b;
+  }
+
+  a {
+    font-weight: $fw-nm;
+    color: $primary-dark;
+    font-size: $fs-md;
+    padding: 1rem;
+  }
+  
+  a:link {
+    font-weight: $fw-b;
+    color: #18181b;  
+  }
+  
+  a:visited {
+    color: #18181b;
+  }
+  
+  a:focus {
+    color: #18181b;
+  }
+  
+  a:hover {
+    font-weight: $fw-bb;
+    color: #18181b;
+  }
+  
+  a:active {
+    color: #18181b;
+  }
+}
+
+.header-nav {
+  ul {
+    display: flex;
+
+    li {
+      width: 100%;
+    }
+  }
+}
+

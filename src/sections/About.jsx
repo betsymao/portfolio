@@ -1,7 +1,11 @@
 function About() {
   return (
-    <div>
-    </div>
+    <>
+      <section className="about">
+        <h1>Hello, I'm Betsy.</h1>
+        <p>I'm a Web Developer based in Australia.</p>
+      </section>
+    </>
   )
 }
 

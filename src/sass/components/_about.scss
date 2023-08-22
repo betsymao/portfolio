@@ -1,0 +1,9 @@
+@use '../abstracts/' as *;
+
+.about {
+  padding: 3rem;
+
+  h1 {
+    font-size: $fs-lg;
+  }
+}

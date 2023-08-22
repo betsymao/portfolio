@@ -1,0 +1,40 @@
+@use '../abstracts/' as *;
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: $primary-dark;
+
+  a {
+    font-weight: 400;
+    color: $primary-light;
+    font-size: $fs-md;
+  }
+
+  a:link {
+    font-weight: $fw-b;
+    color: $primary-light;    
+  }
+
+  a:visited {
+    color: $primary-light;
+  }
+
+  a:focus {
+    color: $primary-light;
+  }
+
+  a:hover {
+    color: $primary-accent;
+  }
+
+  a:active {
+    color: $primary-light;
+  }
+}
+
+.social {
+display: block;
+padding: 1rem;
+}
